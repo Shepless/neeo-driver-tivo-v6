@@ -1,0 +1,19 @@
+{
+  "name": "neeo-driver-virgin-media-tivo-v6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "DEBUG=neeo:driver:* node index"
+  },
+  "keywords": [],
+  "author": "Shepless (http://shepless.github.io/)",
+  "license": "ISC",
+  "dependencies": {
+    "bonjour": "^3.5.0",
+    "debug": "^3.1.0",
+    "message-socket": "^1.0.4",
+    "neeo-sdk": "^0.50.5",
+    "tivo-remote": "^2.1.0"
+  }
+}
